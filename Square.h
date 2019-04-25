@@ -7,9 +7,9 @@ class Square
 	*/
 private:
 
-	int _owner;
-	int _value;
-	bool _status;
+	int _owner = -1;
+	int _value = 0;
+	bool _status = false;
 
 public:
 	Square(int owner = -1, int value = 0, bool status = false): _owner(owner), _value(value), _status(status){};

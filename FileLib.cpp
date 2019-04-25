@@ -2,6 +2,8 @@
 #include <fstream>
 #include <iostream>
 
+using namespace std;
+
 const char *filename = "./database.txt";
 
 /* First write to the computer and player location, write 36 common square states in turn, each time line break.*/
