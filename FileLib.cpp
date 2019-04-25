@@ -28,7 +28,7 @@ void ReadFromFile(){
 	if(!fin){
 		cout << "File open failed, game failed to load" << endl;
 	}
-//此处同样将文件资料存进那几个全局变量中
+//此处同样将文件资料存进那几个全局变量中,配合然后配合Paint函数实现加载游戏
 	else{
 
 	}
