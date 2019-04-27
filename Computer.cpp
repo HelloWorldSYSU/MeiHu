@@ -56,4 +56,8 @@ public:
 		}
 		return false;
 	}
+
+	int Getmoney() { return _money; }
+	int Getposition() { return _position; }
+	friend std::istream& operator >>(std::istream &in, Computer &c) { in >> c._money >> c._position; return in; }
 };
