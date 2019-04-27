@@ -1,3 +1,9 @@
+#pragma once
+#include "UI.h"
+#include "WindowsAPI.h"
+
+using namespace std;
+
 UI::UI(){
 	this->_start_x = 30;
 	this->_start_y = 2;

@@ -1,6 +1,7 @@
+#pragma once
+
 #include <windows.h>
 #include <iostream>
-#include "WindowsAPI.cpp"
 
 using namespace std;
 
@@ -18,10 +19,9 @@ public:
 	UI();
 	UI(int x, int y, int w, int h);
 	void Paint();
-	void PaintPlayer();
-	void PaintComputer();
-	void PaintStartAndEnd();
-	~UI();
+	void PaintPlayer(int x);
+	void PaintComputer(int x);
+	void PaintStartAndEnd(int x, int y);
 	
 };
 

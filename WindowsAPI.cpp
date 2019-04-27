@@ -1,4 +1,6 @@
-#include <windows.h>
+#pragma once
+
+#include "WindowsAPI.h"
 #include <iostream>
 
 using namespace std;
