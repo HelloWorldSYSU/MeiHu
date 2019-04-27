@@ -1,1 +1,0 @@
-This is a test to confirm if the repository or the branch works.
